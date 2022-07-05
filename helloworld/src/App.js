@@ -43,6 +43,8 @@ class App extends React.Component {
       </div>
       <div>
         <input onChange={this.onNameChange}/>
+        <span className = "error" > {this.state.nameError} </span>
+
       </div>
       <p>     
         BridgeLabz is an AWS recognised incubator and is solely focussed on solving tech employability.

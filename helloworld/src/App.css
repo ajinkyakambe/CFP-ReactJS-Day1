@@ -43,13 +43,6 @@ img{
   width: 25%;
 }
 
-.error-output {
- margin-left: 10px;
- font-size: 12px;
- font-style: italic;
- color: red;
-}
-
 
 body { 
   background-color: rgb(29, 29, 235);
@@ -73,4 +66,11 @@ input {
 }
 .inner_wrapper p {
   margin: 5%;
+}
+
+.error {
+  text-align: center;
+  display: block;
+  font-style: italic;
+  color: red;
 }
